@@ -2,4 +2,9 @@
 
 ## Questions
 * Journal? Space Weather
-* LaTeX or Word? 
+* LaTeX or Word?
+
+## Contributions
+* Larsen - motivation and repo
+* Morley - forecast tools, metrics, thoughts
+
