@@ -1,0 +1,18 @@
+=================
+===PERFORMANCE===
+=================
+N_points: 44639
+
+Biot-Savart
+=================
+Slope: 0.53785
+PredEff: 0.45187
+RMSE: 15.83234
+bias: 1.56160
+MAE: 12.19251
+Intercept: -7.77262
+MdAE: 9.41782
+MSE: 250.66301
+r: 0.68390
+
+Source file: log_n000000.log
