@@ -99,3 +99,4 @@ venv.bak/
 .mypy_cache/
 .idea
 Supporting/Liemohn_s1.pdf
+.DS_Store
