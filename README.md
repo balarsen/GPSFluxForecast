@@ -30,7 +30,8 @@ binning/averaging.
 
 
 ### Changelog:
-2018-10-01: BAL - Initial discussions and outline of work
-2018-10-02: SM - CXD Data
+* 2018-10-01: BAL - Initial discussions and outline of work
+* 2018-10-02: SM - CXD Data
+* 2018-10-02: BAL - CXD data prep and transformation into vectors for K-D
 
 
