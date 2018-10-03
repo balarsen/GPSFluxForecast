@@ -20,10 +20,7 @@
 \usepackage{url} %this package should fix any errors with URLs in refs.
 \usepackage{lineno}
 
-%%%%%%%%%%%%%%TODO%%%%%%%%%%%%%%
-% REMOVE THIS BEFORE SUBMISSION
-% \usepackage{cite}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \linenumbers
 %%%%%%%
 % As of 2018 we recommend use of the TrackChanges package to mark revisions.
@@ -38,7 +35,8 @@
 % complete documentation is here: http://trackchanges.sourceforge.net/
 %%%%%%%
 
-\draftfalse
+% TODO this like comment out makes it double spaced
+%\draftfalse
 
 %% Enter journal name below.
 %% Choose from this list of Journals:
@@ -53,18 +51,6 @@
 
 \begin{document}
 
-%% ------------------------------------------------------------------------ %%
-%  Title
-%
-% (A title should be specific, informative, and brief. Use
-% abbreviations only if they are defined in the abstract. Titles that
-% start with general keywords then specific terms are optimized in
-% searches)
-%
-%% ------------------------------------------------------------------------ %%
-
-% Example: \title{This is a test title}
-
 \title{Forecast of 1.6MeV Electron Fluxes Done in a Super Badass Way }
 
 %% ------------------------------------------------------------------------ %%
@@ -73,39 +59,13 @@
 %
 %% ------------------------------------------------------------------------ %%
 
-% Authors are individuals who have significantly contributed to the
-% research and preparation of the article. Group authors are allowed, if
-% each author in the group is separately identified in an appendix.)
-
-% List authors by first name or initial followed by last name and
-% separated by commas. Use \affil{} to number affiliations, and
-% \thanks{} for author notes.
-% Additional author notes should be indicated with \thanks{} (for
-% example, for current addresses).
-
-% Example: \authors{A. B. Author\affil{1}\thanks{Current address, Antartica}, B. C. Author\affil{2,3}, and D. E.
-% Author\affil{3,4}\thanks{Also funded by Monsanto.}}
-
 \authors{B.~A. Larsen\affil{1}, S.~K. Morley\affil{1}}
 
-
-% \affiliation{1}{First Affiliation}
-% \affiliation{2}{Second Affiliation}
-% \affiliation{3}{Third Affiliation}
-% \affiliation{4}{Fourth Affiliation}
-
 \affiliation{1}{Space Science and Applications, Los Alamos National Laboratory, Los Alamos, NM, USA}
-%(repeat as many times as is necessary)
 
 %% Corresponding Author:
 % Corresponding author mailing address and e-mail address:
 
-% (include name and email addresses of the corresponding author.  More
-% than one corresponding author is allowed in this LaTeX file and for
-% publication; but only one corresponding author is allowed in our
-% editorial system.)
-
-% Example: \correspondingauthor{First and Last Name}{email@address.edu}
 
 \correspondingauthor{B.~A. Larsen}{balarsen@lanl.gov}
 
@@ -115,30 +75,12 @@
 %  Key Points summarize the main points and conclusions of the article
 %  Each must be 100 characters or less with no special characters or punctuation
 
-% Example:
-% \begin{keypoints}
-% \item	List up to three key points (at least one is required)
-% \item	Key Points summarize the main points and conclusions of the article
-% \item	Each must be 100 characters or less with no special characters or punctuation
-% \end{keypoints}
-
 \begin{keypoints}
 \item enter point 1 here
 \item enter point 2 here
 \item enter point 3 here
 \end{keypoints}
 
-%% ------------------------------------------------------------------------ %%
-%
-%  ABSTRACT
-%
-% A good abstract will begin with a short description of the problem
-% being addressed, briefly describe the new data or analyses, then
-% briefly states the main conclusion(s) and how they are supported and
-% uncertainties.
-%% ------------------------------------------------------------------------ %%
-
-%% \begin{abstract} starts the second page
 
 \begin{abstract}
 enter abstract here
@@ -153,37 +95,17 @@ enter abstract here
 %
 %% ------------------------------------------------------------------------ %%
 
-%%% Suggested section heads:
-% \section{Introduction}
-%
-% The main text should start with an introduction. Except for short
-% manuscripts (such as comments and replies), the text should be divided
-% into sections, each with its own heading.
 
-% Headings should be sentence fragments and do not begin with a
-% lowercase letter or number. Examples of good headings are:
-
-% \section{Materials and Methods}
-% Here is text on Materials and Methods.
-%
-% \subsection{A descriptive heading about methods}
-% More about Methods.
-%
-% \section{Data} (Or section title might be a descriptive heading about data)
-%
-% \section{Results} (Or section title might be a descriptive heading about the
-% results)
-%
-% \section{Conclusions}
-
-
-\section{= enter section title =}
+\section{Introduction}
 
 These are the data \cite{MorleyEnergetic-Parti}
 
-%Text here ===>>>
+\section{Data and Methods}
 
-%%
+\section{Results}
+
+\section{Conclusions}
+
 
 %  Numbered lines in equations:
 %  To add line numbers to lines in equations,
@@ -291,15 +213,6 @@ These are the data \cite{MorleyEnergetic-Parti}
 % Optional Glossary, Notation or Acronym section goes here:
 %
 %%%%%%%%%%%%%%
-% Glossary is only allowed in Reviews of Geophysics
-%  \begin{glossary}
-%  \term{Term}
-%   Term Definition here
-%  \term{Term}
-%   Term Definition here
-%  \term{Term}
-%   Term Definition here
-%  \end{glossary}
 
 %
 %%%%%%%%%%%%%%
@@ -312,19 +225,6 @@ These are the data \cite{MorleyEnergetic-Parti}
 %   \acro{ECMWF}
 %   Centre for Medium-Range Weather Forecasts
 %   \end{acronyms}
-
-%
-%%%%%%%%%%%%%%
-% Notation
-%   \begin{notation}
-%   \notation{$a+b$} Notation Definition here
-%   \notation{$e=mc^2$}
-%   Equation in German-born physicist Albert Einstein's theory of special
-%  relativity that showed that the increased relativistic mass ($m$) of a
-%  body comes from the energy of motion of the body—that is, its kinetic
-%  energy ($E$)—divided by the speed of light squared ($c^2$).
-%   \end{notation}
-
 
 
 
@@ -361,27 +261,12 @@ XXXX).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BibTeX is preferred:
-%
-% \bibliography{<name of your .bib file>}
-%
 % don't specify bibliographystyle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%TODO%%%%%%%%%%%%%%
-% REMOVE THIS BEFORE SUBMISSION
 \bibliography{bibli}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 % Please use ONLY \citet and \citep for reference citations.
 % DO NOT use other cite commands (e.g., \cite, \citeyear, \nocite, \citealp, etc.).
-%% Example \citet and \citep:
-%  ...as shown by \citet{Boug10}, \citet{Buiz07}, \citet{Fra10},
-%  \citet{Ghel00}, and \citet{Leit74}.
-
-%  ...as shown by \citep{Boug10}, \citep{Buiz07}, \citep{Fra10},
-%  \citep{Ghel00, Leit74}.
-
-%  ...has been shown \citep [e.g.,][]{Boug10,Buiz07,Fra10}.
 
 
 \end{document}
