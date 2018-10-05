@@ -1,0 +1,11 @@
+path.py
+numpy
+pandas
+matplotlib
+spacepy
+seaborn
+tqdm
+notebook
+scipy
+sklearn
+h5py
