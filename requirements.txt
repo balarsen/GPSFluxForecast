@@ -8,4 +8,4 @@ tqdm
 scipy
 sklearn
 h5py
-
+notebook
